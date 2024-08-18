@@ -1,3 +1,5 @@
+from LoginService import login
+
 class LoginDisplay():
     def execute(self):
         print("||    SELAMAT DATANG DI LOGIN PAGE    ||")
@@ -5,7 +7,6 @@ class LoginDisplay():
         print("||             REGISTRASI             ||")
         print("========================================")
         inputLg= input("Jawaban: ")
-        
 
 class Perkenalan():
     def execute(self):
